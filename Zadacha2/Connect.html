@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Resources/CSS/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="Resources/CSS/file.css" />
+	<title>CONTACT</title>
+</head>
+<script
+src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+</script>
+
+<script>
+function initialize()
+{
+var mapProp = {
+  center:new google.maps.LatLng(42.687388,23.344574),
+  zoom:17,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+<body>
+	<header>
+		
+		<p  class = "phone" > 0888 72 35 67 </p>
+		<a class = "email" href="mailto:urmanic@design.com">urmanic@design.com</a>
+	</header>
+	<nav style="overflow: hidden;">
+	
+			<a href="home.html"><img  class = "logo"  alt = "Urbanic logo" src = "Resources/images/templatemo_logo.png"/></a>
+			<div class = "right1">
+				<ul class = "navigation">
+					<li class = "li"><a href = "home.html">home</a></li>
+					<li class = "li"><a href = "https://www.google.bg/">about</a></li>
+					<li class = "li"><a href = "https://www.google.bg/">portfolio</a></li>
+					<li class = "li"><a href = "https://www.google.bg/">blog</a></li>
+					<li class = "li"><a href = "#">contacts</a></li>
+				</ul>
+			</div>		
+	</nav>
+	<div class = "center1">
+		<hr class = "element">
+		<p class = "textp "><span style = "font-size = 100%">CONTACT</span></p>
+		<hr class = "element">
+	</div>
+<div class = "centerpage2">
+	<div class = "map" id="googleMap" style="width:330px;height:330px;">
+	</div>
+	<div class = "float">
+		<p>Now imagine you start resizing that window.</p>
+		<p class = "locationimg">47a Tsarigradsko Shosse Blvd.,Sofia, Bulgaria</p>
+		<p class = "tel"> 0888 54 66 78 </p>
+		<p class = "sait other"><a href = "http://www.melontech.com/" target="_blank">www.melontech.com</a></p>
+			<form>
+				<input class = "input" type="text" name="Your first name" size="27" maxlength="40" placeholder="First Name" required />
+				<input class = "input" type="text" name="Your second name" size="27" maxlength="40" maxlength="40" placeholder="Second Name" required/>
+				<textarea class = "input" rows="4" cols="26" name="comment" placeholder=" Message" required></textarea>
+				<div style="clear:both">
+				</div>
+				<button class = "button" type="submit" style = "background-color:#FF6600">Send</button>
+			</form>
+			<div style="clear:both">
+			</div>
+	</div>
+
+</div>
+	<div class = "position">
+		<footer>
+		<ul class="center2">
+			<li><a class ="connect one" href = "#"></a></li>
+			<li><a class ="connect two" href = "#"></a></li>
+			<li><a class ="connect three" href = "#"></a></li>
+			<li><a class ="connect four" href = "#"></a></li>
+			<li><a class ="connect five" href = "#"></a></li>
+		</ul>
+		<div class = "other">
+			<a class = "backtotop " href = "#top" >BACK TO TOP</a>
+		</div>
+		<div class = "end">
+		<span style = "font-size:70%">Some text Some text Some text Some text Some text </span>
+		</div>
+	</footer>
+</div>
+</body>
+</html>

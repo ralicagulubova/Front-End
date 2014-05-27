@@ -1,0 +1,123 @@
+
+a:link {color: #FF9966;}    /* unvisited link */
+a:visited {color: #FF9966;} /* visited link */
+a:hover {color: #FF0099;}   /* mouse over link */
+a:active {color: #FF9966;}  /* selected link */
+
+body
+{
+font-family: font-family: arial, sans-serif, helvetica;
+color: #909090 ;
+}
+
+#contact
+{
+	color: #FF9966;
+	float: left;
+	padding-left: 200px;
+}
+#email
+{
+	color: #FF9966;
+	float: right;
+	padding-right: 200px;
+}
+
+#colour
+{
+background-color: #D0D0D0;
+width: 100% ;
+height: 40px;
+margin-bottom: 15px;
+
+}
+
+#logo
+{
+float: left; 
+margin: 5px;
+padding-left: 100px;
+padding-bottom: 5px;
+margin-top: 10px; 
+}
+
+li
+{
+display: inline;
+list-style-type: none; 
+}
+
+#right
+{
+float: right;
+margin: 10px;
+padding-right: 200px;
+}
+#fon
+{
+width: 100%;
+height: 400px;
+margin-top: 2px;
+margin-bottom: 10px;
+
+
+}
+#text
+{
+
+	color: #FFFFFF;
+	position: absolute;
+    text-align: center;
+    top: 90px;
+    width: 100%;
+ }   
+
+#afterlogo
+{
+
+	text-align: center;
+	font-weight: normal;
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.column
+{
+	width: 200px;
+	float:left;
+	margin-top: 30px;
+	
+}
+
+.left
+{
+	margin-left: 300px;
+	
+}
+
+.middle
+{
+	
+	
+	
+}
+.right{
+}
+
+#element{
+	width: 230px;
+	float:left;
+	margin-left: 280px;
+	margin-top: 40px;
+}
+#textp{
+	float: left;
+}
+	
+	
+
+
+
+
+

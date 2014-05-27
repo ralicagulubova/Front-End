@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Resources/CSS/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="Resources/CSS/file.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+	</script>
+	<script src="Resources/JS/hangman.js"></script>
+	
+	<title>Hangman</title>
+</head>
+<body>
+
+	<h1 class = "title">Wellcome to Hangman Game</h1>
+	<div class = "centerpictures" id = "pic">
+	<img class = "pictures" alt = "picture of man" src = "Resources/hang/hang0.gif"/> 
+	</div>
+	<div class = "text">
+	<p >Select category   <select id = "category" class = "category"  >
+										<option onClick= "DisplaySecretWord.selectWord()" value = "select"> SELECT </option>
+  										<option class = "option" onClick= "DisplaySecretWord.selectWord()" value="animals">Animals</option>
+ 	 									<option class = "option" onClick= "DisplaySecretWord.selectWord()" value="colors">Colors</option>
+										</select> </p>
+	
+
+		
+	
+		<p> WORD: <span class = "secretword" id = "secret"></span></p>
+		<p>Your right guesses are: <span  id = "right"></span></p>
+		<p>Your wrong guesses are: <span id = "wrong"></span></p>
+	</div>
+	<div id = "display">
+	<div class= "centerbutton">
+		<button class = "button" type = "button" onClick="window.location.reload()"> New game</button>
+		<button class = "button" type = "button" onClick = "exitGame()"> Exit</button>
+		<div style="clear:both">
+	</div>
+	</div>
+<div class = "centerletters">
+<input class="letters" type="button" name="a" value="a" onClick = "Game.isLetterInWord('a')">
+<input class="letters" type="button" name="b" value="b" onClick = "Game.isLetterInWord('b')">
+<input class="letters" type="button" name="c" value="c" onClick = "Game.isLetterInWord('c')">
+<input class="letters" type="button" name="d" value="d" onClick = "Game.isLetterInWord('d')">
+<input class="letters" type="button" name="e" value="e" onClick = "Game.isLetterInWord('e')">
+<input class="letters" type="button" name="f" value="f" onClick = "Game.isLetterInWord('f')">
+<input class="letters" type="button" name="g" value="g" onClick = "Game.isLetterInWord('g')">
+<input class="letters" type="button" name="h" value="h" onClick = "Game.isLetterInWord('h')">
+<input class="letters" type="button" name="i" value="i" onClick = "Game.isLetterInWord('i')">
+<input class="letters" type="button" name="j" value="j" onClick = "Game.isLetterInWord('j')">
+<input class="letters" type="button" name="k" value="k" onClick = "Game.isLetterInWord('k')">
+<input class="letters" type="button" name="l" value="l" onClick = "Game.isLetterInWord('l')">
+<input class="letters" type="button" name="m" value="m" onClick = "Game.isLetterInWord('m')">
+<input class="letters" type="button" name="n" value="n" onClick = "Game.isLetterInWord('n')">
+<input class="letters" type="button" name="o" value="o" onClick = "Game.isLetterInWord('o')">
+<input class="letters" type="button" name="p" value="p" onClick = "Game.isLetterInWord('p')">
+<input class="letters" type="button" name="q" value="q" onClick = "Game.isLetterInWord('q')">
+<input class="letters" type="button" name="r" value="r" onClick = "Game.isLetterInWord('r')">
+<input class="letters" type="button" name="s" value="s" onClick = "Game.isLetterInWord('s')">
+<input class="letters" type="button" name="t" value="t" onClick = "Game.isLetterInWord('t')">
+<input class="letters" type="button" name="u" value="u" onClick = "Game.isLetterInWord('u')">
+<input class="letters" type="button" name="v" value="v" onClick = "Game.isLetterInWord('v')">
+<input class="letters" type="button" name="w" value="w" onClick = "Game.isLetterInWord('w')">
+<input class="letters" type="button" name="x" value="x" onClick = "Game.isLetterInWord('x')">
+<input class="letters" type="button" name="y" value="y" onClick = "Game.isLetterInWord('y')">
+<input class="letters" type="button" name="z" value="z" onClick = "ame.isLetterInWord('z')">
+</div>
+</div>
+</body>
+</html>

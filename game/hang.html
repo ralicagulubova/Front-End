@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" />
+<head>
+	<link rel="stylesheet" type="text/css" href="Resources/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="Resources/hang.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+	</script>
+	<script src="Resources/hang.js"></script>
+	
+	<title>Hangman</title>
+</head>
+<body>
+
+	<h1 class = "title">Добре дошли в играта "Бесеница"</h1>
+	<div class = "centerpictures" id = "pic">
+	<img class = "pictures" alt = "picture of man" src = "Resources/hang/hang0.gif"/> 
+	</div>
+	<div class = "text">
+	<p >Избери си категория   <select id = "category" class = "category"  >
+										<option onClick= "getWord()" value = "select"> Избери </option>
+  										<option class = "option" onClick= "getWord()" value="animals">Животни</option>
+ 	 									<option class = "option" onClick= "getWord()" value="colors">Цветове</option>
+										</select> </p>
+	
+
+		
+	
+		<p> ДУМАТА Е: <span class = "secretword" id = "secret"></span></p>
+		<p>Вече позна буквите: <span  id = "right"></span></p>
+		<p>Неправилните букви са: <span id = "wrong"></span></p>
+	</div>
+	<div id = "display">
+	<div class= "centerbutton">
+		<button class = "button" type = "button" onClick="window.location.reload()">Нова игра</button>
+		<button class = "button" type = "button" onClick = "exitGame()">Изход</button>
+		<div style="clear:both">
+	</div>
+	</div>
+<div class = "centerletters">
+<input class="letters" type="button" name="a" value="а" onClick = "isLetterInWord('а')">
+<input class="letters" type="button" name="b" value="б" onClick = "isLetterInWord('б')">
+<input class="letters" type="button" name="c" value="в" onClick = "isLetterInWord('в')">
+<input class="letters" type="button" name="d" value="г" onClick = "isLetterInWord('г')">
+<input class="letters" type="button" name="e" value="д" onClick = "isLetterInWord('д')">
+<input class="letters" type="button" name="f" value="е" onClick = "isLetterInWord('е')">
+<input class="letters" type="button" name="g" value="ж" onClick = "isLetterInWord('ж')">
+<input class="letters" type="button" name="h" value="з" onClick = "isLetterInWord('з')">
+<input class="letters" type="button" name="i" value="и" onClick = "isLetterInWord('и')">
+<input class="letters" type="button" name="j" value="й" onClick = "isLetterInWord('й')">
+<input class="letters" type="button" name="k" value="к" onClick = "isLetterInWord('к')">
+<input class="letters" type="button" name="l" value="л" onClick = "isLetterInWord('л')">
+<input class="letters" type="button" name="m" value="м" onClick = "isLetterInWord('м')">
+<input class="letters" type="button" name="n" value="н" onClick = "isLetterInWord('н')">
+<input class="letters" type="button" name="o" value="о" onClick = "isLetterInWord('о')">
+<input class="letters" type="button" name="p" value="п" onClick = "isLetterInWord('п')">
+<input class="letters" type="button" name="q" value="р" onClick = "isLetterInWord('р')">
+<input class="letters" type="button" name="r" value="с" onClick = "isLetterInWord('с')">
+<input class="letters" type="button" name="s" value="т" onClick = "isLetterInWord('т')">
+<input class="letters" type="button" name="t" value="у" onClick = "isLetterInWord('у')">
+<input class="letters" type="button" name="u" value="ф" onClick = "isLetterInWord('ф')">
+<input class="letters" type="button" name="v" value="х" onClick = "isLetterInWord('х')">
+<input class="letters" type="button" name="w" value="ц" onClick = "isLetterInWord('ц')">
+<input class="letters" type="button" name="x" value="ч" onClick = "isLetterInWord('ч')">
+<input class="letters" type="button" name="y" value="ш" onClick = "isLetterInWord('ш')">
+<input class="letters" type="button" name="z" value="щ" onClick = "isLetterInWord('щ')">
+<input class="letters" type="button" name="y" value="ъ" onClick = "isLetterInWord('ъ')">
+<input class="letters" type="button" name="y" value="ь" onClick = "isLetterInWord('ь')">
+<input class="letters" type="button" name="z" value="ю" onClick = "isLetterInWord('ю')">
+<input class="letters" type="button" name="z" value="я" onClick = "isLetterInWord('я')">
+
+
+</div>
+</div>
+</body>
+</html>

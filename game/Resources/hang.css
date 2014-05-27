@@ -1,0 +1,80 @@
+body{
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	color: #FFFFCC ;
+	font-weight: bold;
+	background-image: url(hang/image2.jpg);
+	background-position:top;
+	background-size: cover;
+	font-size: 20px;
+	line-height: 30px;
+	
+}
+.title{
+	text-align: center;
+	padding: 30px;
+	font-size: 250%;
+	text-shadow:5px 5px 5px #F00000  ;
+	margin: 0px;
+}
+.pictures{
+
+	width: 250px;
+	height: 350px;
+	/*margin-left: 400px;*/
+	padding: 35px;
+	display: inline-block;
+}
+.centerpictures{
+	width: 37%;
+	margin: auto;
+}
+.text{
+	margin : auto;
+	width: 30%;
+	font-size: 120%;
+
+}
+.button{
+	display: inline;
+	float: left;
+	margin-right: 4px;
+	width: 110px;
+	height: 40px;
+	background-color: #FF99FF ;
+	
+}
+.centerbutton{
+	width: 22%;
+	margin: auto;
+	margin-top: 30px;
+}
+.letters{
+	display: block;
+	float: left;
+	width: 35px;
+	height: 35px;
+	background-color: #FF99FF ;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+.centerletters{
+	width: 51%;
+	margin: auto;
+	margin-top: 30px;
+}
+.category{
+	width: 120px;
+	height: 30px;
+	background-color: #FF99FF ;
+	text-align: center;
+}
+.secretword{
+	letter-spacing: 5px;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+p{
+	margin: 0px;
+	padding-top: 7px;
+}
